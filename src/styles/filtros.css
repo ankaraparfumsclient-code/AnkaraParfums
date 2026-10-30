@@ -1,6 +1,5 @@
-/* Grupos de filtros desplegables de Esencias (ajusta colores a tu paleta si hace falta) */
 .ess__grupo {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(60, 35, 30, 0.12);
 }
 
 .ess__grupo-btn {
@@ -13,19 +12,22 @@
   background: none;
   border: 0;
   font: inherit;
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-size: 1.15rem;
   font-weight: 600;
-  color: inherit;
+  color: var(--navy, #3c231e);
   text-align: left;
   cursor: pointer;
 }
 
 .ess__grupo-btn:focus-visible {
-  outline: 2px solid #e0a54a;
+  outline: 2px solid var(--gold, #d8b485);
   outline-offset: 2px;
 }
 
 .ess__chev {
   font-size: 0.8em;
+  color: var(--navy, #3c231e);
   transition: transform 0.2s ease;
 }
 
@@ -42,8 +44,9 @@
   margin-left: 0.5rem;
   padding: 0 0.35rem;
   border-radius: 999px;
-  background: #e0a54a;
-  color: #24140d;
+  background: var(--gold, #d8b485);
+  color: var(--navy-deep, #241411);
+  font-family: var(--sans, system-ui, sans-serif);
   font-size: 0.75rem;
   font-weight: 700;
 }
@@ -61,7 +64,8 @@
 .ess__nota {
   margin: 0.5rem 0 0;
   font-size: 0.8rem;
-  opacity: 0.7;
+  color: #786259;
+  opacity: 0.85;
 }
 
 @media (prefers-reduced-motion: reduce) {
