@@ -14,7 +14,7 @@ export function Header({ scrolled }) {
 
   return (
     <header className={`nav ${scrolled ? "nav--solid" : ""}`}>
-      <Link to="/" className="nav__logo"><img src="/img/logo-perfumshops.png" alt="PerfumShops" /></Link>
+      <Link to="/" className="nav__logo"><img src="/img/logo-ankaraparfums.png" alt="AnkaraParfums" /></Link>
       <nav className="nav__links">
         <Link to="/">Inicio</Link>
         <Link to="/esencias">Esencias</Link>

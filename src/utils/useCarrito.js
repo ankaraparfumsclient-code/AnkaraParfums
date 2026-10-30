@@ -2,7 +2,7 @@ import { useCallback, useMemo, useSyncExternalStore } from "react";
 
 export const MAX_UNIDADES = 5;
 
-const CLAVE = "perfumshops_carrito";
+const CLAVE = "ankaraparfums_carrito";
 
 const leer = () => {
   try {
